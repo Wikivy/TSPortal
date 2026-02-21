@@ -36,8 +36,8 @@ class LoginController extends BaseController
 	{
 		$socialiteUser = Socialite::driver( 'mediawiki' )->user();
 
-		$user = User::findOrCreate( $socialiteUser->name, true );
-
+		$user = User::findOrCreate( $socialiteUser->username, true );
+		
 		if ( count( $user->events ) == 0 ) {
 			$user->newEvent( 'created-login' );
 		}
