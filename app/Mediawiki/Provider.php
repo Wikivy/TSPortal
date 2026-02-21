@@ -69,9 +69,9 @@ class Provider extends AbstractProvider
 	protected function getMediawikiUrl($type)
 	{
 		return rtrim($this->getConfig('base_url'), '/').'/'.ltrim($this->getConfig($type, Arr::get([
-				'authorize_uri' => 'rest.php/oauth2/authorize',
-				'token_uri'     => 'rest.php/oauth2/access_token',
-				'userinfo_uri'  => 'rest.php/oauth2/resource/profile',
+				'authorize_uri' => 'w/rest.php/oauth2/authorize',
+				'token_uri'     => 'w/rest.php/oauth2/access_token',
+				'userinfo_uri'  => 'w/rest.php/oauth2/resource/profile',
 			], $type)), '/');
 	}
 }
