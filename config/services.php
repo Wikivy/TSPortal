@@ -12,9 +12,6 @@ return [
 	*/
 
 	'mediawiki' => [
-		'identifier' => env( 'MEDIAWIKI_IDENTIFIER' ),
-		'secret' => env( 'MEDIAWIKI_SECRET' ),
-		'callback_uri' => env( 'MEDIAWIKI_CALLBACK' ),
 		'client_id' => env('MEDIAWIKI_IDENTIFIER'),
 		'client_secret' => env('MEDIAWIKI_SECRET'),
 		'redirect' => env('MEDIAWIKI_CALLBACK'),
