@@ -7,13 +7,13 @@
 		"php": "^8.4",
 		"ext-json": "*",
 		"ext-pdo": "*",
+		"doctrine/dbal": "^4.4",
 		"guzzlehttp/guzzle": "7.10.0",
 		"laravel/framework": "12.52.0",
 		"laravel/serializable-closure": "2.0.9",
 		"laravel/socialite": "5.24.2",
 		"laravel/tinker": "2.11.1",
-		"doctrine/dbal": "^4.4",
-		"taavi/laravel-socialite-mediawiki": "1.6.0"
+		"socialiteproviders/manager": "^4.8"
 	},
 	"require-dev": {
 		"fakerphp/faker": "1.24.1",

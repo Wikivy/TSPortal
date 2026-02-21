@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "76abb96f7c382017874f0d136fc60c37",
+    "content-hash": "e1ca51eef5c0215410d89d9109724b08",
     "packages": [
         {
             "name": "brick/math",
@@ -3936,6 +3936,80 @@
             "time": "2025-12-14T04:43:48+00:00"
         },
         {
+            "name": "socialiteproviders/manager",
+            "version": "v4.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SocialiteProviders/Manager.git",
+                "reference": "8180ec14bef230ec2351cff993d5d2d7ca470ef4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SocialiteProviders/Manager/zipball/8180ec14bef230ec2351cff993d5d2d7ca470ef4",
+                "reference": "8180ec14bef230ec2351cff993d5d2d7ca470ef4",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^8.0 || ^9.0 || ^10.0 || ^11.0 || ^12.0",
+                "laravel/socialite": "^5.5",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.2",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SocialiteProviders\\Manager\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SocialiteProviders\\Manager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andy Wendt",
+                    "email": "andy@awendt.com"
+                },
+                {
+                    "name": "Anton Komarev",
+                    "email": "a.komarev@cybercog.su"
+                },
+                {
+                    "name": "Miguel Piedrafita",
+                    "email": "soy@miguelpiedrafita.com"
+                },
+                {
+                    "name": "atymic",
+                    "email": "atymicq@gmail.com",
+                    "homepage": "https://atymic.dev"
+                }
+            ],
+            "description": "Easily add new or override built-in providers in Laravel Socialite.",
+            "homepage": "https://socialiteproviders.com",
+            "keywords": [
+                "laravel",
+                "manager",
+                "oauth",
+                "providers",
+                "socialite"
+            ],
+            "support": {
+                "issues": "https://github.com/socialiteproviders/manager/issues",
+                "source": "https://github.com/socialiteproviders/manager"
+            },
+            "time": "2025-02-24T19:33:30+00:00"
+        },
+        {
             "name": "symfony/clock",
             "version": "v8.0.0",
             "source": {
@@ -6426,48 +6500,6 @@
                 }
             ],
             "time": "2026-01-01T22:13:48+00:00"
-        },
-        {
-            "name": "taavi/laravel-socialite-mediawiki",
-            "version": "1.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.sr.ht/~taavi/laravel-socialite-mediawiki",
-                "reference": "ad9167180b31c47ce81198cb4190a50ad4aa565f"
-            },
-            "require": {
-                "ext-json": "*",
-                "laravel/socialite": "^5.0",
-                "php": "^7.0|^8.0"
-            },
-            "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "38.0.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Taavi\\LaravelSocialiteMediawiki\\Providers\\MediawikiSocialiteServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Taavi\\LaravelSocialiteMediawiki\\": "includes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taavi Väänänen",
-                    "email": "hi@taavi.wtf"
-                }
-            ],
-            "description": "A MediaWiki authentication provider for Laravel Socialite",
-            "time": "2022-01-06T19:09:07+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
