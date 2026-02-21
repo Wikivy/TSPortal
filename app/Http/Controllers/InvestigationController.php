@@ -8,7 +8,7 @@ use App\Events\InvestigationNew;
 use App\Models\Appeal;
 use App\Models\Investigation;
 use App\Models\User;
-use App\Rules\MirahezeUsernameRule;
+use App\Rules\UsernameRule;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
@@ -70,7 +70,7 @@ class InvestigationController extends Controller
 	{
 		$request->validate(
 			[
-				'username' => [ new MirahezeUsernameRule ]
+				'username' => [ new UsernameRule ]
 			]
 		);
 

@@ -200,11 +200,11 @@
 			<div class="container text-muted py-lg-4">
 				<ul class="list-inline">
 					<li class="list-inline-item me-4"><a class="link-secondary"
-					                                     href="https://meta.miraheze.org/wiki/Privacy_Policy">{{ __('footer-privacy') }}</a></li>
+					                                     href="https://meta.wikivy.com/wiki/Privacy_Policy">{{ __('footer-privacy') }}</a></li>
 					<li class="list-inline-item me-4"><a class="link-secondary"
-					                                     href="https://meta.miraheze.org/wiki/Terms_of_Use">{{ __('footer-tou') }}</a></li>
+					                                     href="https://meta.wikivy.com/wiki/Terms_of_Use">{{ __('footer-tou') }}</a></li>
 					<li class="list-inline-item"><a class="link-secondary"
-					                                href="https://meta.miraheze.org/wiki/Miraheze">{{ __('footer-meta') }}</a>
+					                                href="https://meta.wikivy.com/wiki/Wikivy_Meta">{{ __('footer-meta') }}</a>
 					</li>
 				</ul>
 				<p class="mb-0">{{ __('footer-company') }}</p>
